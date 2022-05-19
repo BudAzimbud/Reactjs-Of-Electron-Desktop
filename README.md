@@ -30,6 +30,11 @@ then run command
 electrom .
 
 or for build file 
+
+npm run build 
+
+then run command
+
 electron-builder -w -c.extraMetadata.main=build/electron.js
 
 -w for window
